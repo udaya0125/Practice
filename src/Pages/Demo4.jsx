@@ -69,7 +69,7 @@ const Demo4 = () => {
       avatarName: "Carrie Brewer",
       avatarTime: "2h ago",
     },
-        {
+    {
       id: 6,
       tag: "ITEMS",
       name: "Tesla Cybertruck",
@@ -82,7 +82,7 @@ const Demo4 = () => {
       avatarName: "Carrie Brewer",
       avatarTime: "2h ago",
     },
-        {
+    {
       id: 7,
       tag: "ITEMS",
       name: "Tesla Cybertruck",
@@ -95,7 +95,7 @@ const Demo4 = () => {
       avatarName: "Carrie Brewer",
       avatarTime: "2h ago",
     },
-        {
+    {
       id: 8,
       tag: "ITEMS",
       name: "Tesla Cybertruck",
@@ -108,16 +108,12 @@ const Demo4 = () => {
       avatarName: "Carrie Brewer",
       avatarTime: "2h ago",
     },
-
   ];
-
 
   console.log(cars);
   return (
- 
     <div className="container3">
-     
-            {cars.map((car, index) => (
+      {cars.map((car, index) => (
         <div key={index} className="card ">
           <img src={car.image} alt="Card Image"></img>
           <div className="content">
@@ -134,10 +130,9 @@ const Demo4 = () => {
           </div>
         </div>
       ))}
-
     </div>
 
-        //   {cars.map((car, id) => (
+    //   {cars.map((car, id) => (
     //     <div key={id} className="card ">
     //       <img src={car.image} alt="Card Image"></img>
     //       <div className="content">
@@ -184,9 +179,6 @@ export default Demo4;
 //     </div>
 //   </div>
 // </div>
-
-
-
 
 //  <div className="card">
 //         <img
